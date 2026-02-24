@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.69a72ad4.css",
-    "main.js": "/static/js/main.1e05f25b.js",
+    "main.js": "/static/js/main.4294c3d7.js",
     "static/css/939.eb0467f7.chunk.css": "/static/css/939.eb0467f7.chunk.css",
     "static/js/939.7c6fc468.chunk.js": "/static/js/939.7c6fc468.chunk.js",
     "static/css/869.b69f7563.chunk.css": "/static/css/869.b69f7563.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/tyber-symbol.png": "/static/media/tyber-symbol.3a0d64d5bfd9d8a9282e.png",
     "index.html": "/index.html",
     "main.69a72ad4.css.map": "/static/css/main.69a72ad4.css.map",
-    "main.1e05f25b.js.map": "/static/js/main.1e05f25b.js.map",
+    "main.4294c3d7.js.map": "/static/js/main.4294c3d7.js.map",
     "939.eb0467f7.chunk.css.map": "/static/css/939.eb0467f7.chunk.css.map",
     "939.7c6fc468.chunk.js.map": "/static/js/939.7c6fc468.chunk.js.map",
     "869.b69f7563.chunk.css.map": "/static/css/869.b69f7563.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.69a72ad4.css",
-    "static/js/main.1e05f25b.js"
+    "static/js/main.4294c3d7.js"
   ]
 }
