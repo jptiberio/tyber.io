@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tyber.io",
+  "name": "Tyber.io - AI Consulting & Machine Learning Solutions",
+  "description": "Premium AI consulting firm specializing in machine learning, NLP, computer vision, and intelligent automation.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,12 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "theme_color": "#0a0e1a",
+  "background_color": "#0a0e1a",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
 }
