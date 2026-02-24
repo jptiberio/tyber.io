@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99f01e80.css",
-    "main.js": "/static/js/main.54a8d681.js",
+    "main.css": "/static/css/main.69a72ad4.css",
+    "main.js": "/static/js/main.c5234261.js",
     "static/css/939.0e9db259.chunk.css": "/static/css/939.0e9db259.chunk.css",
     "static/js/939.7c6fc468.chunk.js": "/static/js/939.7c6fc468.chunk.js",
     "static/css/869.b69f7563.chunk.css": "/static/css/869.b69f7563.chunk.css",
@@ -15,9 +15,10 @@
     "static/css/773.f74d37dd.chunk.css": "/static/css/773.f74d37dd.chunk.css",
     "static/js/773.84640c7b.chunk.js": "/static/js/773.84640c7b.chunk.js",
     "static/js/60.5aef0653.chunk.js": "/static/js/60.5aef0653.chunk.js",
+    "static/media/tyber-symbol.png": "/static/media/tyber-symbol.3a0d64d5bfd9d8a9282e.png",
     "index.html": "/index.html",
-    "main.99f01e80.css.map": "/static/css/main.99f01e80.css.map",
-    "main.54a8d681.js.map": "/static/js/main.54a8d681.js.map",
+    "main.69a72ad4.css.map": "/static/css/main.69a72ad4.css.map",
+    "main.c5234261.js.map": "/static/js/main.c5234261.js.map",
     "939.0e9db259.chunk.css.map": "/static/css/939.0e9db259.chunk.css.map",
     "939.7c6fc468.chunk.js.map": "/static/js/939.7c6fc468.chunk.js.map",
     "869.b69f7563.chunk.css.map": "/static/css/869.b69f7563.chunk.css.map",
@@ -33,7 +34,7 @@
     "60.5aef0653.chunk.js.map": "/static/js/60.5aef0653.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99f01e80.css",
-    "static/js/main.54a8d681.js"
+    "static/css/main.69a72ad4.css",
+    "static/js/main.c5234261.js"
   ]
 }
