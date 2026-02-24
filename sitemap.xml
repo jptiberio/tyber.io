@@ -32,7 +32,7 @@
 <xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/" />
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/" />
-<lastmod>2024-01-15</lastmod>
+<lastmod>2026-01-08</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -197,7 +197,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-01-generative-ai-enterprise.webp</image:loc>
 </image:image>
-<lastmod>2024-01-15</lastmod>
+<lastmod>2026-01-08</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -209,7 +209,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-02-ml-pipelines.webp</image:loc>
 </image:image>
-<lastmod>2024-01-10</lastmod>
+<lastmod>2025-11-14</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -221,7 +221,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-03-computer-vision-2024.webp</image:loc>
 </image:image>
-<lastmod>2024-01-05</lastmod>
+<lastmod>2025-09-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -233,7 +233,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-04-llm-security.webp</image:loc>
 </image:image>
-<lastmod>2023-12-28</lastmod>
+<lastmod>2025-07-21</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -245,7 +245,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-05-ai-ethics.webp</image:loc>
 </image:image>
-<lastmod>2023-12-20</lastmod>
+<lastmod>2025-06-10</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -257,7 +257,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-06-mlops-dashboard.webp</image:loc>
 </image:image>
-<lastmod>2023-12-15</lastmod>
+<lastmod>2025-04-17</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -269,7 +269,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-07-edge-ai.webp</image:loc>
 </image:image>
-<lastmod>2023-12-10</lastmod>
+<lastmod>2025-02-26</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -281,7 +281,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-08-robotics.webp</image:loc>
 </image:image>
-<lastmod>2023-12-05</lastmod>
+<lastmod>2024-12-09</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -293,7 +293,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-09-ai-team.webp</image:loc>
 </image:image>
-<lastmod>2023-11-28</lastmod>
+<lastmod>2024-10-22</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -305,7 +305,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-10-transformers.webp</image:loc>
 </image:image>
-<lastmod>2023-11-22</lastmod>
+<lastmod>2024-08-30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -317,7 +317,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-06-mlops-dashboard.webp</image:loc>
 </image:image>
-<lastmod>2023-11-15</lastmod>
+<lastmod>2024-06-11</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -329,9 +329,81 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-12-multimodal-ai.webp</image:loc>
 </image:image>
-<lastmod>2023-11-08</lastmod>
+<lastmod>2024-04-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/ai-agents-2025/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/ai-agents-2025/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/agentes-ia-2025/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/ai-agents-2025/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-01-generative-ai-enterprise.webp</image:loc>
+</image:image>
+<lastmod>2025-03-12</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/deepseek-open-source-ai-revolution/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/deepseek-open-source-ai-revolution/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/deepseek-revolucao-ai-open-source/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/deepseek-open-source-ai-revolution/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-10-transformers.webp</image:loc>
+</image:image>
+<lastmod>2025-02-18</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/rag-vs-fine-tuning-guide/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/rag-vs-fine-tuning-guide/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/rag-vs-fine-tuning-guia/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/rag-vs-fine-tuning-guide/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-02-ml-pipelines.webp</image:loc>
+</image:image>
+<lastmod>2025-01-22</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/ai-governance-brazil-lgpd/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/ai-governance-brazil-lgpd/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/governanca-ia-brasil-lgpd/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/ai-governance-brazil-lgpd/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-05-ai-ethics.webp</image:loc>
+</image:image>
+<lastmod>2024-11-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/measuring-ai-roi-2025/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/measuring-ai-roi-2025/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/roi-projetos-ia-2025/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/measuring-ai-roi-2025/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-06-mlops-dashboard.webp</image:loc>
+</image:image>
+<lastmod>2024-08-14</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/vibe-coding-ai-development-teams/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/vibe-coding-ai-development-teams/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/vibe-coding-desenvolvimento-ia-times/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/vibe-coding-ai-development-teams/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-07-edge-ai.webp</image:loc>
+</image:image>
+<lastmod>2025-05-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
 </url>
 <url>
 <loc>https://tyber.io/blog/futuro-ia-generativa-empresas/</loc>
@@ -341,7 +413,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-01-generative-ai-enterprise.webp</image:loc>
 </image:image>
-<lastmod>2024-01-15</lastmod>
+<lastmod>2026-01-08</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -353,7 +425,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-02-ml-pipelines.webp</image:loc>
 </image:image>
-<lastmod>2024-01-10</lastmod>
+<lastmod>2025-11-14</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -365,7 +437,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-03-computer-vision-2024.webp</image:loc>
 </image:image>
-<lastmod>2024-01-05</lastmod>
+<lastmod>2025-09-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -377,7 +449,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-04-llm-security.webp</image:loc>
 </image:image>
-<lastmod>2023-12-28</lastmod>
+<lastmod>2025-07-21</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -389,7 +461,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-05-ai-ethics.webp</image:loc>
 </image:image>
-<lastmod>2023-12-20</lastmod>
+<lastmod>2025-06-10</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -401,7 +473,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-06-mlops-dashboard.webp</image:loc>
 </image:image>
-<lastmod>2023-12-15</lastmod>
+<lastmod>2025-04-17</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -413,7 +485,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-08-robotics.webp</image:loc>
 </image:image>
-<lastmod>2023-12-05</lastmod>
+<lastmod>2024-12-09</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -425,7 +497,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-09-ai-team.webp</image:loc>
 </image:image>
-<lastmod>2023-11-28</lastmod>
+<lastmod>2024-10-22</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -437,7 +509,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-10-transformers.webp</image:loc>
 </image:image>
-<lastmod>2023-11-22</lastmod>
+<lastmod>2024-08-30</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -449,7 +521,7 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-06-mlops-dashboard.webp</image:loc>
 </image:image>
-<lastmod>2023-11-15</lastmod>
+<lastmod>2024-06-11</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -461,7 +533,79 @@
 <image:image>
 <image:loc>https://tyber.io/images/blog/blog-12-multimodal-ai.webp</image:loc>
 </image:image>
-<lastmod>2023-11-08</lastmod>
+<lastmod>2024-04-03</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/agentes-ia-2025/</loc>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/agentes-ia-2025/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/ai-agents-2025/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/ai-agents-2025/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-01-generative-ai-enterprise.webp</image:loc>
+</image:image>
+<lastmod>2025-03-12</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/deepseek-revolucao-ai-open-source/</loc>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/deepseek-revolucao-ai-open-source/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/deepseek-open-source-ai-revolution/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/deepseek-open-source-ai-revolution/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-10-transformers.webp</image:loc>
+</image:image>
+<lastmod>2025-02-18</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/rag-vs-fine-tuning-guia/</loc>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/rag-vs-fine-tuning-guia/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/rag-vs-fine-tuning-guide/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/rag-vs-fine-tuning-guide/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-02-ml-pipelines.webp</image:loc>
+</image:image>
+<lastmod>2025-01-22</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/governanca-ia-brasil-lgpd/</loc>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/governanca-ia-brasil-lgpd/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/ai-governance-brazil-lgpd/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/ai-governance-brazil-lgpd/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-05-ai-ethics.webp</image:loc>
+</image:image>
+<lastmod>2024-11-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/roi-projetos-ia-2025/</loc>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/roi-projetos-ia-2025/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/measuring-ai-roi-2025/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/measuring-ai-roi-2025/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-06-mlops-dashboard.webp</image:loc>
+</image:image>
+<lastmod>2024-08-14</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://tyber.io/blog/vibe-coding-desenvolvimento-ia-times/</loc>
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/vibe-coding-desenvolvimento-ia-times/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/vibe-coding-ai-development-teams/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/vibe-coding-ai-development-teams/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/blog-07-edge-ai.webp</image:loc>
+</image:image>
+<lastmod>2025-05-08</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
