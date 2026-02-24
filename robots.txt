@@ -1,15 +1,16 @@
-# Tyber.io - AI Consulting & Solutions
+# Tyber.io — AI Consulting & Solutions
 # https://tyber.io
 
+# ── Default: allow all crawlers ──────────────────────────────
 User-agent: *
 Allow: /
-Disallow: /static/
-Disallow: /asset-manifest.json
+Disallow: /_next/
+Disallow: /api/
 
-# Sitemap
+# ── Sitemap index ─────────────────────────────────────────────
 Sitemap: https://tyber.io/sitemap.xml
 
-# AI Crawlers - explicitly allow for AI search indexing
+# ── AI crawlers — explicitly allowed for AI search indexing ──
 User-agent: GPTBot
 Allow: /
 
@@ -32,4 +33,10 @@ User-agent: Bytespider
 Allow: /
 
 User-agent: CCBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: YouBot
 Allow: /
