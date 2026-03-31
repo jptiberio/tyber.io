@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle financeiro pelo celular: alertas automaticos e zero planilha | Tyber Bot</title>
+  <meta name="description" content="Controle suas financas pelo celular com alertas automaticos de vencimento, sem planilha e sem app complexo. Tudo via Telegram com IA.">
+  <meta name="keywords" content="controle financeiro, contas a pagar, app financeiro, telegram, financas pessoais, alertas de vencimento, organizar contas, sem planilha">
+  <meta property="og:title" content="Controle financeiro pelo celular: alertas automaticos e zero planilha">
+  <meta property="og:description" content="Cadastre contas com texto natural e receba alertas antes do vencimento. Sem planilha, sem app complexo — tudo no Telegram.">
+  <meta property="og:url" content="https://tyber.io/blog/controle-financeiro-pelo-celular.html">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://tyber.io/og-image.png">
+  <meta property="article:published_time" content="2026-03-22">
+  <meta property="article:author" content="Tyber.io">
+  <link rel="icon" href="/tyber-symbol.png" type="image/png">
+  <link rel="canonical" href="https://tyber.io/blog/controle-financeiro-pelo-celular.html">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #6C63FF;
+      --primary-dark: #5A52D5;
+      --bg: #0F0F1A;
+      --bg-card: #1A1A2E;
+      --text: #E8E8F0;
+      --text-muted: #9898B0;
+      --accent: #00D4AA;
+      --gradient: linear-gradient(135deg, #6C63FF 0%, #00D4AA 100%);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    nav {
+      position: fixed; top: 0; width: 100%; z-index: 100;
+      background: rgba(15,15,26,0.85); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(108,99,255,0.15);
+      padding: 16px 0;
+    }
+    nav .nav-container { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-size: 1.4rem; font-weight: 800; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .logo a { -webkit-text-fill-color: transparent; }
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-links a { color: var(--text-muted); font-size: 0.95rem; font-weight: 500; }
+    .nav-links a:hover { color: var(--text); text-decoration: none; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 32px; border-radius: 12px;
+      font-size: 1.05rem; font-weight: 600;
+      cursor: pointer; border: none; transition: all 0.2s;
+    }
+    .btn-primary {
+      background: var(--gradient); color: #fff;
+      box-shadow: 0 4px 20px rgba(108,99,255,0.35);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 28px rgba(108,99,255,0.5); text-decoration: none; color: #fff; }
+    .btn-small { padding: 8px 20px; font-size: 0.9rem; }
+    .article-header {
+      padding: 140px 0 60px;
+      text-align: center;
+      position: relative;
+    }
+    .article-header::before {
+      content: '';
+      position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 600px; height: 400px;
+      background: radial-gradient(circle, rgba(108,99,255,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .article-tag {
+      display: inline-block; background: rgba(108,99,255,0.15);
+      color: var(--primary); padding: 6px 16px; border-radius: 20px;
+      font-size: 0.85rem; font-weight: 600; margin-bottom: 20px;
+    }
+    .article-header h1 {
+      font-size: 2.6rem; font-weight: 800; line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .article-meta { color: var(--text-muted); font-size: 0.9rem; }
+    .article-body { padding: 0 0 60px; }
+    .article-body h2 {
+      font-size: 1.5rem; font-weight: 700; margin: 48px 0 16px;
+      color: var(--text);
+    }
+    .article-body h3 {
+      font-size: 1.2rem; font-weight: 600; margin: 32px 0 12px;
+      color: var(--text);
+    }
+    .article-body p {
+      color: var(--text-muted); font-size: 1.05rem; margin-bottom: 20px;
+      line-height: 1.8;
+    }
+    .article-body ul, .article-body ol {
+      color: var(--text-muted); font-size: 1.05rem;
+      margin: 0 0 20px 24px; line-height: 1.8;
+    }
+    .article-body li { margin-bottom: 8px; }
+    .article-body strong { color: var(--text); }
+    .article-body blockquote {
+      border-left: 3px solid var(--primary);
+      padding: 16px 24px; margin: 24px 0;
+      background: var(--bg-card); border-radius: 0 12px 12px 0;
+    }
+    .article-body blockquote p { margin-bottom: 0; font-style: italic; }
+    .blog-cta {
+      padding: 80px 0; text-align: center;
+      background: linear-gradient(180deg, transparent, rgba(108,99,255,0.08));
+    }
+    .blog-cta h2 { font-size: 2rem; font-weight: 700; margin-bottom: 16px; }
+    .blog-cta p { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 32px; }
+    footer {
+      border-top: 1px solid rgba(108,99,255,0.1);
+      padding: 32px 0; text-align: center;
+      color: var(--text-muted); font-size: 0.85rem;
+    }
+    footer a { color: var(--text-muted); }
+    @media (max-width: 768px) {
+      .article-header h1 { font-size: 1.8rem; }
+      .article-header { padding: 120px 0 40px; }
+      .nav-links { gap: 16px; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Controle financeiro pelo celular: alertas automaticos e zero planilha",
+    "description": "Controle suas financas pelo celular com alertas automaticos de vencimento, sem planilha e sem app complexo.",
+    "author": { "@type": "Organization", "name": "Tyber.io" },
+    "publisher": { "@type": "Organization", "name": "Tyber.io", "url": "https://tyber.io" },
+    "datePublished": "2026-03-22",
+    "url": "https://tyber.io/blog/controle-financeiro-pelo-celular.html"
+  }
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">Tyber</a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/#blog">Blog</a>
+        <a href="https://t.me/TyberBot" class="btn btn-primary btn-small">Comece gratis</a>
+      </div>
+    </div>
+  </nav>
+
+  <article>
+    <header class="article-header">
+      <div class="container">
+        <span class="article-tag">Financas</span>
+        <h1>Controle financeiro pelo celular: alertas automaticos e zero planilha</h1>
+        <p class="article-meta">22 de marco de 2026 &middot; 5 min de leitura</p>
+      </div>
+    </header>
+
+    <div class="article-body">
+      <div class="container">
+        <p>Todo mundo sabe que deveria controlar as financas. Poucas pessoas realmente fazem. E o motivo quase nunca e preguica — e atrito. Abrir uma planilha, lembrar das categorias, preencher celulas, conferir formulas. Ou entao baixar um app financeiro com 47 funcoes, sendo que voce so precisa de uma: saber quando e quanto pagar.</p>
+
+        <p>E se voce pudesse simplesmente mandar uma mensagem dizendo "internet 99.90 dia 10" e pronto? Sem planilha, sem app, sem formulario. Apenas uma conversa. E a proposta do controle financeiro do <strong>Tyber Bot</strong> — e funciona exatamente assim.</p>
+
+        <h2>Por que planilhas nao funcionam para a maioria</h2>
+
+        <p>Planilhas sao ferramentas poderosas. Mas sao ferramentas de analise, nao de registro no dia a dia. O problema e pratico:</p>
+
+        <ul>
+          <li><strong>Exigem disciplina constante</strong> — esquecer de preencher um dia ja compromete a visao mensal</li>
+          <li><strong>Ficam desatualizadas</strong> — a planilha do mes passado vira um arquivo morto</li>
+          <li><strong>Nao avisam nada</strong> — voce precisa lembrar de olhar a planilha, que e exatamente o problema</li>
+          <li><strong>Sao ruins no celular</strong> — navegar celulas em tela pequena e frustrante</li>
+          <li><strong>Criam culpa</strong> — abrir a planilha e ver que nao preencheu tres semanas desanima qualquer um</li>
+        </ul>
+
+        <p>Apps financeiros sofisticados resolvem parte do problema, mas criam outros: sincronizacao bancaria que falha, categorias rigidas, interfaces complexas, assinaturas caras. Para quem so quer nao esquecer de pagar uma conta, e matar formiga com bazuca.</p>
+
+        <h2>A abordagem conversacional: cadastre falando</h2>
+
+        <p>O Tyber Bot usa linguagem natural para cadastrar suas contas. Voce escreve como falaria com um amigo:</p>
+
+        <ul>
+          <li><strong>"internet 99.90 todo dia 10"</strong> — cria conta recorrente de R$ 99,90 com vencimento dia 10</li>
+          <li><strong>"aluguel 2500 dia 5"</strong> — conta mensal de R$ 2.500 vencendo dia 5</li>
+          <li><strong>"IPVA 1800 dia 15/04"</strong> — conta avulsa com data especifica</li>
+          <li><strong>"netflix 55.90 todo dia 22"</strong> — mais uma recorrente, organizada automaticamente</li>
+        </ul>
+
+        <p>O bot entende o valor, a recorrencia e a data de vencimento. Nao precisa preencher formulario, escolher categoria em dropdown ou navegar por telas. Uma mensagem e suficiente.</p>
+
+        <h2>Alertas que funcionam de verdade</h2>
+
+        <p>A funcao mais valiosa de um controle financeiro nao e categorizar gastos — e <strong>avisar antes que voce perca o prazo</strong>. O Tyber Bot envia alertas automaticos em tres momentos:</p>
+
+        <h3>Alerta de vencimento proximo</h3>
+        <p>Um dia antes do vencimento, voce recebe uma notificacao no Telegram com o nome da conta, o valor e a data. Simples, direto, sem abrir nada. A informacao chega ate voce — voce nao precisa ir atras dela.</p>
+
+        <h3>Alerta no dia do vencimento</h3>
+        <p>No dia, o bot lembra novamente. Se voce ja pagou, pode marcar como paga com um toque. Se nao pagou, o alerta fica visivel no chat ate voce resolver.</p>
+
+        <h3>Alerta de atraso</h3>
+        <p>Passou do vencimento e nao marcou como paga? O bot sinaliza a conta como atrasada e mantem o alerta ativo. Nada de conta perdida no fundo de uma planilha.</p>
+
+        <blockquote>
+          <p>"Controle financeiro nao e sobre ter a planilha perfeita. E sobre nunca esquecer de pagar uma conta."</p>
+        </blockquote>
+
+        <h2>Dashboard: visao geral em segundos</h2>
+
+        <p>Alem dos alertas, o comando <strong>/contas</strong> mostra um dashboard completo direto no chat:</p>
+
+        <ul>
+          <li><strong>Contas vencidas</strong> — tudo que ja passou do prazo e nao foi pago</li>
+          <li><strong>Vencendo hoje</strong> — o que precisa de atencao imediata</li>
+          <li><strong>Proximos 7 dias</strong> — visao da semana para se preparar</li>
+          <li><strong>Total do mes</strong> — soma de tudo que vence no mes atual</li>
+        </ul>
+
+        <p>Em 3 segundos voce tem a foto completa das suas financas. Sem abrir app, sem esperar sincronizar, sem navegar por menus. Um comando, uma resposta.</p>
+
+        <h2>Recorrencia automatica: cadastre uma vez</h2>
+
+        <p>Contas recorrentes sao a maior fonte de esquecimento financeiro. A internet vence todo mes, o aluguel tambem, o plano de saude idem. Com o Tyber Bot, voce cadastra uma vez e o sistema gera automaticamente a proxima ocorrencia quando voce marca como paga.</p>
+
+        <p>O ciclo funciona assim:</p>
+
+        <ol>
+          <li>Voce cadastra "internet 99.90 todo dia 10"</li>
+          <li>Dia 9, recebe alerta: "Internet — R$ 99,90 vence amanha"</li>
+          <li>Dia 10, paga e marca como paga no bot</li>
+          <li>Bot gera automaticamente a conta do proximo mes (dia 10 do mes seguinte)</li>
+          <li>Repete indefinidamente — voce nunca mais precisa cadastrar essa conta</li>
+        </ol>
+
+        <p>Se o valor mudar, basta editar. Se a conta for cancelada, basta excluir. O gerenciamento e tao simples quanto mandar uma mensagem.</p>
+
+        <h2>Investimentos no mesmo lugar</h2>
+
+        <p>O modulo financeiro do Tyber Bot tambem permite acompanhar investimentos. Use o comando <strong>/investimentos</strong> para ver seu portfolio organizado por tipo: renda fixa, acoes, FIIs, cripto. Sem abrir app de corretora, sem conferir planilha separada.</p>
+
+        <p>Cadastre com linguagem natural: "CDB Banco X 50000 rendendo 12.5% ao ano". O bot organiza, calcula rendimento estimado e mostra tudo em um dashboard unificado.</p>
+
+        <h2>Para quem e — e para quem nao e</h2>
+
+        <p>O controle financeiro do Tyber Bot e ideal para:</p>
+
+        <ul>
+          <li><strong>Quem quer simplicidade</strong> — nao precisa de 50 categorias de gasto, so de nao esquecer contas</li>
+          <li><strong>Quem ja desistiu de planilhas</strong> — a abordagem conversacional tem zero atrito</li>
+          <li><strong>Autonomos e freelancers</strong> — contas irregulares e valores variaveis sao faceis de gerenciar</li>
+          <li><strong>Casais</strong> — ambos podem consultar o mesmo dashboard no Telegram</li>
+        </ul>
+
+        <p>Se voce precisa de conciliacao bancaria automatica, categorizacao detalhada de gastos ou relatorios contabeis, um app financeiro completo ainda e a melhor opcao. Mas se o que voce quer e <strong>nunca mais pagar juros por esquecimento</strong>, o Tyber Bot resolve.</p>
+
+        <h2>Comece em 1 minuto</h2>
+
+        <p>O modulo financeiro esta disponivel no plano Pro do Tyber Bot:</p>
+
+        <ol>
+          <li>Abra <strong>@TyberBot</strong> no Telegram</li>
+          <li>Envie <strong>/contas</strong> para ver o dashboard</li>
+          <li>Cadastre sua primeira conta com texto natural</li>
+          <li>Pronto — os alertas automaticos ja estao ativos</li>
+        </ol>
+
+        <p>Chega de planilha abandonada. Chega de conta paga com juros porque voce esqueceu. <strong>Controle financeiro pode ser tao simples quanto mandar uma mensagem.</strong></p>
+      </div>
+    </div>
+  </article>
+
+  <section class="blog-cta">
+    <div class="container">
+      <h2>Nunca mais pague juros por esquecimento</h2>
+      <p>Cadastre suas contas em segundos e receba alertas automaticos. Gratis para comecar.</p>
+      <a href="https://t.me/TyberBot" class="btn btn-primary">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.69-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.37-.49 1.02-.75 3.98-1.73 6.63-2.87 7.95-3.43 3.78-1.58 4.57-1.85 5.08-1.86.11 0 .37.03.53.17.14.12.18.28.2.46-.01.06.01.24 0 .38z"/></svg>
+        Organizar minhas financas no Telegram
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Tyber.io — Assistente pessoal com IA. <a href="mailto:contato@tyber.io">contato@tyber.io</a></p>
+    </div>
+  </footer>
+</body>
+</html>
