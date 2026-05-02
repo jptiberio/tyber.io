@@ -418,6 +418,18 @@
 <priority>0.75</priority>
 </url>
 <url>
+<loc>https://tyber.io/blog/rag-grafana-natural-language/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/rag-grafana-natural-language/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/rag-grafana-natural-language/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/blog/rag-grafana-natural-language/" />
+<image:image>
+<image:loc>https://tyber.io/images/blog/20-rag-grafana-natural-language.webp</image:loc>
+</image:image>
+<lastmod>2026-05-02</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
 <loc>https://tyber.io/blog/futuro-ia-generativa-empresas/</loc>
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/futuro-ia-generativa-empresas/" />
 <xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/future-generative-ai-enterprise/" />
