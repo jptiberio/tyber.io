@@ -1,7 +1,7 @@
 {
   "short_name": "Tyber.io",
-  "name": "Tyber.io - AI Consulting & Machine Learning Solutions",
-  "description": "Premium AI consulting firm specializing in machine learning, NLP, computer vision, and intelligent automation.",
+  "name": "Tyber.io — AI Consulting & Solutions",
+  "description": "Boutique consultancy at the intersection of AI and reliability engineering — DevOps automation, intelligent observability, AI agents and RAG.",
   "icons": [
     {
       "src": "logo192.png",
@@ -19,7 +19,7 @@
   "theme_color": "#0a0e1a",
   "background_color": "#0a0e1a",
   "orientation": "portrait-primary",
-  "categories": ["business", "productivity"],
+  "categories": ["business", "productivity", "developer"],
   "lang": "en",
   "dir": "ltr"
 }
