@@ -46,6 +46,102 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>https://tyber.io/portfolio/edge-ddos-mitigation/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/edge-ddos-mitigation/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/edge-ddos-mitigation/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/edge-ddos-mitigation/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/01-edge-ddos-mitigation.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/portfolio/finops-publisher-cdn/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/finops-publisher-cdn/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/finops-publisher-cdn/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/finops-publisher-cdn/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/02-finops-publisher-cdn.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/portfolio/regional-news-perf/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/regional-news-perf/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/regional-news-perf/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/regional-news-perf/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/03-regional-news-perf.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/portfolio/wp-restore-automation/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/wp-restore-automation/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/wp-restore-automation/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/wp-restore-automation/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/04-wp-restore-automation.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/portfolio/telegram-bot-platform/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/telegram-bot-platform/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/telegram-bot-platform/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/telegram-bot-platform/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/05-telegram-bot-platform.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/portfolio/ai-pr-reviewer/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/ai-pr-reviewer/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/ai-pr-reviewer/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/ai-pr-reviewer/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/06-ai-pr-reviewer.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/portfolio/edge-dns-router/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/edge-dns-router/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/edge-dns-router/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/edge-dns-router/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/07-edge-dns-router.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://tyber.io/portfolio/discord-deploy-bot/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/discord-deploy-bot/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/discord-deploy-bot/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/portfolio/discord-deploy-bot/" />
+<image:image>
+<image:loc>https://tyber.io/images/portfolio/08-discord-deploy-bot.webp</image:loc>
+</image:image>
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://tyber.io/blog/rag-grafana-natural-language/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/blog/rag-grafana-natural-language/" />
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/blog/rag-grafana-natural-language/" />
