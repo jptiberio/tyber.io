@@ -1,0 +1,10 @@
+# tyber.io — Authorized Digital Sellers (ads.txt)
+# https://iabtechlab.com/ads-txt/
+#
+# Cobre tyber.io e todos os subdomínios (news.tyber.io, dash.tyber.io, etc).
+# IAB spec: subdomain ads.txt fallback pro apex domain.
+#
+# Publisher ID configurado em 2026-05-08 (em revisao AdSense).
+# Cobre tyber.io + subdomain news.tyber.io via fallback IAB.
+
+google.com, pub-6274784268350513, DIRECT, f08c47fec0942fa0
