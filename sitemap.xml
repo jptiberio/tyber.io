@@ -82,6 +82,24 @@
 <priority>0.85</priority>
 </url>
 <url>
+<loc>https://tyber.io/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/privacy/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/privacy/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/privacy/" />
+<lastmod>2026-02-24</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://tyber.io/terms/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/terms/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/terms/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/terms/" />
+<lastmod>2026-02-24</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
 <loc>https://tyber.io/portfolio/edge-ddos-mitigation/</loc>
 <xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/portfolio/edge-ddos-mitigation/" />
 <xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/portfolio/edge-ddos-mitigation/" />
