@@ -55,19 +55,28 @@
 <priority>0.85</priority>
 </url>
 <url>
-<loc>https://tyber.io/solutions/bot/</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/bot/" />
-<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/bot/" />
-<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/bot/" />
+<loc>https://tyber.io/solutions/data/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/data/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/data/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/data/" />
 <lastmod>2026-02-24</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.85</priority>
 </url>
 <url>
-<loc>https://tyber.io/solutions/sites/</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/sites/" />
-<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/sites/" />
-<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/sites/" />
+<loc>https://tyber.io/solutions/observability/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/observability/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/observability/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/observability/" />
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.85</priority>
+</url>
+<url>
+<loc>https://tyber.io/solutions/security/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/security/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/security/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/security/" />
 <lastmod>2026-02-24</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.85</priority>
@@ -82,10 +91,19 @@
 <priority>0.85</priority>
 </url>
 <url>
-<loc>https://tyber.io/solutions/observability/</loc>
-<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/observability/" />
-<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/observability/" />
-<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/observability/" />
+<loc>https://tyber.io/solutions/bot/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/bot/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/bot/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/bot/" />
+<lastmod>2026-02-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.85</priority>
+</url>
+<url>
+<loc>https://tyber.io/solutions/sites/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tyber.io/solutions/sites/" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tyber.io/solutions/sites/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tyber.io/solutions/sites/" />
 <lastmod>2026-02-24</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.85</priority>
