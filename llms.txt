@@ -1,0 +1,58 @@
+# Tyber.io
+
+> Boutique consultancy that brings AI into production environments that cannot fail. We design, automate and operate the intersection of DevOps, reliability engineering and applied AI. Founded and led by JP Tibério (Senior Technical Lead, São Paulo, Brazil). Bilingual (English / Portuguese).
+
+## What we do
+
+Tyber.io engineers AI into systems that must be reliable. Our work lives at the boundary of:
+
+- AI-Augmented DevOps (GitOps with AI, IaC copilots, deploy bots, Kubernetes agents, FinOps with intelligent forecasting)
+- Intelligent Observability (Grafana / Prometheus / Loki / Tempo / OpenTelemetry with anomaly detection and AI-summarized incident timelines)
+- Operations Automation (ChatOps bots, multi-channel orchestration, scheduled workflows with AI decision steps)
+- RAG and Knowledge Systems (semantic retrieval over internal documentation, runbooks, code)
+- AI Agents Architecture (single and multi-agent patterns, LangGraph, MCP — Model Context Protocol)
+- Auto-Remediation Engineering (alert → verification → mitigation pipelines with human-in-the-loop guardrails)
+- AI Governance and Compliance (LGPD / GDPR-aware design, audit trails, prompt and decision tracing)
+
+## Solutions catalog
+
+- /solutions/bot — Conversational AI bots on Telegram, Slack, WhatsApp, Discord, Teams, or any platform with API/webhook. LLM-agnostic (Claude, GPT, Gemini, Llama, Mistral). RAG over your knowledge base. Workflow automation.
+- /solutions/sites — Sites, landing pages, editorial portals, documentation sites, portfolio sites, headless commerce portals (Astro + WordPress or any CMS). AI-generated where it makes sense.
+- /solutions/automation — Intelligent workflow automation with AI in the decision step. DevOps bots, schedulers, system integrations, lightweight RPA, content pipelines.
+- /solutions/observability — Smart monitoring stacks with AI-assisted triage, on-call incident bots, conservative auto-remediation, cost-aware telemetry.
+
+## Infrastructure we operate
+
+- Clouds: AWS, Google Cloud (including GKE), Azure (including AKS), DigitalOcean, Hetzner, Cloudflare.
+- Containers and orchestration: Docker, Kubernetes (vanilla, GKE, EKS, AKS), Helm, Argo CD, k3s.
+- Infrastructure as Code: Terraform / OpenTofu, Pulumi, Ansible, Cloudflare Wrangler, AWS CDK.
+- Edge and CDN: Cloudflare Workers + R2, Cloudflare Pages, Vercel, Netlify, Fastly, Varnish.
+- Observability: Grafana, Prometheus, Loki, Tempo, OpenTelemetry, Zabbix, Alertmanager.
+- Security: Cloudflare Access + WAF, fail2ban + UFW, 1Password CLI for secret management, OAuth / SAML, zero-trust patterns.
+
+## AI models and tools we use
+
+Claude (Opus, Sonnet, Haiku, Claude Code), OpenAI (GPT-4o, GPT-5, Codex), Google Gemini (2.5 Pro, Flash, Imagen, Nano Banana), Perplexity, Hugging Face open-source models, Flux Pro / Schnell, Stable Diffusion. RAG with pgvector and Qdrant. Multi-agent orchestration with LangGraph. MCP servers exposing internal services to LLMs.
+
+## Who we work with
+
+Boutique consultancy — typical engagements are advisory, fractional Technical Lead, or hands-on builds with senior engineering ownership. Remote-first, worldwide. Based in São Paulo, Brazil. Bilingual delivery in English and Portuguese.
+
+## Founder
+
+JP Tibério — Founder and Technical Lead. 15+ years in tech, 9+ years as Technical Lead, 3+ years shipping AI into production. LinkedIn: https://www.linkedin.com/in/jp-tiberio. Public profile: https://github.com/jptiberio.
+
+## Key links
+
+- Home: https://tyber.io/
+- About: https://tyber.io/about/
+- Portfolio: https://tyber.io/portfolio/
+- Blog: https://tyber.io/blog/
+- Contact: https://tyber.io/contact/
+- Privacy: https://tyber.io/privacy/
+- Terms: https://tyber.io/terms/
+- Sitemap: https://tyber.io/sitemap.xml
+
+## Sister product
+
+news.tyber.io — Editorial portal covering AI, gaming, hardware, dev and the broader tech world. Daily AI-generated articles with anti-hype editorial voice, audio narration, bilingual (EN/PT). Operated by Tyber.io as both a product and a reference implementation of our content pipeline capability.
