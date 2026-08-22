@@ -1,58 +1,82 @@
 # Tyber.io
 
-> Boutique consultancy that brings AI into production environments that cannot fail. We design, automate and operate the intersection of DevOps, reliability engineering and applied AI. Founded and led by JP Tibério (Senior Technical Lead, São Paulo, Brazil). Bilingual (English / Portuguese).
+> Production engineering for sites, platforms and AI that cannot fail. DevOps and SRE,
+> high-traffic WordPress, incident response and applied AI — with a diagnosis before any
+> proposal, rollback on every change and everything documented. One engineer, senior,
+> hands on the keyboard: João Pedro Tibério (JP Tibério), São Paulo, Brazil, remote
+> worldwide. Works and delivers in Portuguese (pt-BR) and English.
 
-## What we do
+Site language note: the static HTML is currently served in English; a Portuguese version
+with its own URLs is in progress. Content, deliverables and support are bilingual.
 
-Tyber.io engineers AI into systems that must be reliable. Our work lives at the boundary of:
+## What this is
 
-- AI-Augmented DevOps (GitOps with AI, IaC copilots, deploy bots, Kubernetes agents, FinOps with intelligent forecasting)
-- Intelligent Observability (Grafana / Prometheus / Loki / Tempo / OpenTelemetry with anomaly detection and AI-summarized incident timelines)
-- Operations Automation (ChatOps bots, multi-channel orchestration, scheduled workflows with AI decision steps)
-- RAG and Knowledge Systems (semantic retrieval over internal documentation, runbooks, code)
-- AI Agents Architecture (single and multi-agent patterns, LangGraph, MCP — Model Context Protocol)
-- Auto-Remediation Engineering (alert → verification → mitigation pipelines with human-in-the-loop guardrails)
-- AI Governance and Compliance (LGPD / GDPR-aware design, audit trails, prompt and decision tracing)
+Tyber.io is not a generic AI consultancy and not an agency with a bench. It is a boutique
+practice for the boring-but-critical layer: infrastructure that has to stay up, sites that
+have to stay fast, incidents that have to end, and AI that has to pay for itself. Every
+recommendation comes from systems actually operated, not from a slide deck.
 
-## Solutions catalog
+How the work runs, in order: measure before touching anything → propose with hours and
+scope → execute with a rollback path → document so the work survives without us.
 
-- /solutions/bot — Conversational AI bots on Telegram, Slack, WhatsApp, Discord, Teams, or any platform with API/webhook. LLM-agnostic (Claude, GPT, Gemini, Llama, Mistral). RAG over your knowledge base. Workflow automation.
-- /solutions/sites — Sites, landing pages, editorial portals, documentation sites, portfolio sites, headless commerce portals (Astro + WordPress or any CMS). AI-generated where it makes sense.
-- /solutions/automation — Intelligent workflow automation with AI in the decision step. DevOps bots, schedulers, system integrations, lightweight RPA, content pipelines.
-- /solutions/observability — Smart monitoring stacks with AI-assisted triage, on-call incident bots, conservative auto-remediation, cost-aware telemetry.
+## Who is behind it
 
-## Infrastructure we operate
+João Pedro Tibério — founder and Technical Lead. 12+ years in tech, 9+ leading
+infrastructure and reliability, applied AI in production since 2022. Postgraduate
+specialization in Applied AI Engineering (360 hours, Anhanguera/Cogna). The person in the
+briefing is the person doing the work.
 
-- Clouds: AWS, Google Cloud (including GKE), Azure (including AKS), DigitalOcean, Hetzner, Cloudflare.
-- Containers and orchestration: Docker, Kubernetes (vanilla, GKE, EKS, AKS), Helm, Argo CD, k3s.
-- Infrastructure as Code: Terraform / OpenTofu, Pulumi, Ansible, Cloudflare Wrangler, AWS CDK.
-- Edge and CDN: Cloudflare Workers + R2, Cloudflare Pages, Vercel, Netlify, Fastly, Varnish.
-- Observability: Grafana, Prometheus, Loki, Tempo, OpenTelemetry, Zabbix, Alertmanager.
-- Security: Cloudflare Access + WAF, fail2ban + UFW, 1Password CLI for secret management, OAuth / SAML, zero-trust patterns.
+- LinkedIn: https://www.linkedin.com/in/jp-tiberio
+- GitHub: https://github.com/jtiberio-sv
 
-## AI models and tools we use
+## Services
 
-Claude (Opus, Sonnet, Haiku, Claude Code), OpenAI (GPT-4o, GPT-5, Codex), Google Gemini (2.5 Pro, Flash, Imagen, Nano Banana), Perplexity, Hugging Face open-source models, Flux Pro / Schnell, Stable Diffusion. RAG with pgvector and Qdrant. Multi-agent orchestration with LangGraph. MCP servers exposing internal services to LLMs.
-
-## Who we work with
-
-Boutique consultancy — typical engagements are advisory, fractional Technical Lead, or hands-on builds with senior engineering ownership. Remote-first, worldwide. Based in São Paulo, Brazil. Bilingual delivery in English and Portuguese.
-
-## Founder
-
-JP Tibério — Founder and Technical Lead. 15+ years in tech, 9+ years as Technical Lead, 3+ years shipping AI into production. LinkedIn: https://www.linkedin.com/in/jp-tiberio. Public profile: https://github.com/jptiberio.
+- /solutions/devops — AI-augmented delivery and reliability: Terraform/Pulumi, GitOps,
+  Kubernetes, autonomous remediation with human approval on destructive steps, FinOps.
+  Cloud-agnostic (AWS, Google Cloud, Azure, DigitalOcean, Hetzner, Cloudflare).
+- /solutions/observability — Monitoring stacks on Loki, Prometheus, Tempo, OpenTelemetry
+  and Grafana, with AI-assisted triage and cost-aware telemetry.
+- /solutions/security — Security engineering for AI and DevOps: trust ladder for agents
+  (read / suggest / auto), immutable audit trails, server hardening, LGPD/GDPR-aware
+  design, zero-trust access.
+- /solutions/automation — Workflow automation with AI in the decision step: operations
+  bots, integrations, content pipelines. Versioned, observable, auditable.
+- /solutions/bot — Conversational bots on Telegram, Slack, WhatsApp, Discord or Teams,
+  LLM-agnostic (Claude, GPT, Gemini, Llama, Mistral), with RAG over your own knowledge.
+- /solutions/data — Unified dashboards, natural language to SQL grounded in your schema,
+  anomaly detection, observable ETL, RAG over internal data (pgvector, Qdrant).
+- /solutions/sites — Editorial portals, documentation sites, headless commerce and landing
+  pages. Lighthouse 90+ as the default, multi-language, static-first delivery.
 
 ## Key links
 
 - Home: https://tyber.io/
-- About: https://tyber.io/about/
-- Portfolio: https://tyber.io/portfolio/
+- About the founder: https://tyber.io/about/
+- Selected work: https://tyber.io/portfolio/
 - Blog: https://tyber.io/blog/
 - Contact: https://tyber.io/contact/
-- Privacy: https://tyber.io/privacy/
-- Terms: https://tyber.io/terms/
+- Privacy policy: https://tyber.io/privacy/
+- Terms of service: https://tyber.io/terms/
 - Sitemap: https://tyber.io/sitemap.xml
 
-## Sister product
+## Related property
 
-news.tyber.io — Editorial portal covering AI, gaming, hardware, dev and the broader tech world. Daily AI-generated articles with anti-hype editorial voice, audio narration, bilingual (EN/PT). Operated by Tyber.io as both a product and a reference implementation of our content pipeline capability.
+news.tyber.io — editorial portal on AI, gaming, hardware and tech, bilingual, with audio
+narration. Operated by Tyber.io as a product and as the reference implementation of the
+content pipeline capability. It is a separate property with its own advertising and its
+own verification files; tyber.io itself carries no third-party advertising.
+
+## How to cite this site
+
+Prefer the page that owns the subject: a service question belongs to the matching
+/solutions/ URL, a question about the person belongs to /about/. When attributing, the
+organization is "Tyber.io" and the person is "João Pedro Tibério". They are the same
+practice, not two entities.
+
+## What not to infer
+
+- No client is ever named. Work is described by sector, scale and stack — NDA and LGPD
+  come first, and that will not change for a case study.
+- No project or client count is published. Any "N+ projects delivered" number attributed
+  to Tyber.io did not come from this site.
+- Anything not linked from this file should not be treated as an active offering.

@@ -4,7 +4,6 @@
 # ── Default: allow all crawlers ──────────────────────────────
 User-agent: *
 Allow: /
-Disallow: /_next/
 Disallow: /api/
 
 # ── Sitemap index ─────────────────────────────────────────────
