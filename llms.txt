@@ -6,8 +6,16 @@
 > hands on the keyboard: João Pedro Tibério (JP Tibério), São Paulo, Brazil, remote
 > worldwide. Works and delivers in Portuguese (pt-BR) and English.
 
-Site language note: the static HTML is currently served in English; a Portuguese version
-with its own URLs is in progress. Content, deliverables and support are bilingual.
+## Languages and URL structure
+
+The site is fully bilingual, with one URL per language and `hreflang` on every page:
+
+- Portuguese (pt-BR) lives at the root: https://tyber.io/ , https://tyber.io/about/ , ...
+- English lives under `/en/`: https://tyber.io/en/ , https://tyber.io/en/about/ , ...
+- Every path below exists in both trees with the same slug (`/en/` + path = English
+  version). Quote the page in the language of the person asking; the content is the same
+  in both, the English tree is the `x-default`.
+- No redirect by geography or browser language: the URL is the language.
 
 ## What this is
 
@@ -31,33 +39,67 @@ briefing is the person doing the work.
 
 ## Services
 
-- /solutions/devops — AI-augmented delivery and reliability: Terraform/Pulumi, GitOps,
-  Kubernetes, autonomous remediation with human approval on destructive steps, FinOps.
-  Cloud-agnostic (AWS, Google Cloud, Azure, DigitalOcean, Hetzner, Cloudflare).
-- /solutions/observability — Monitoring stacks on Loki, Prometheus, Tempo, OpenTelemetry
-  and Grafana, with AI-assisted triage and cost-aware telemetry.
-- /solutions/security — Security engineering for AI and DevOps: trust ladder for agents
-  (read / suggest / auto), immutable audit trails, server hardening, LGPD/GDPR-aware
-  design, zero-trust access.
-- /solutions/automation — Workflow automation with AI in the decision step: operations
-  bots, integrations, content pipelines. Versioned, observable, auditable.
-- /solutions/bot — Conversational bots on Telegram, Slack, WhatsApp, Discord or Teams,
-  LLM-agnostic (Claude, GPT, Gemini, Llama, Mistral), with RAG over your own knowledge.
-- /solutions/data — Unified dashboards, natural language to SQL grounded in your schema,
-  anomaly detection, observable ETL, RAG over internal data (pgvector, Qdrant).
-- /solutions/sites — Editorial portals, documentation sites, headless commerce and landing
-  pages. Lighthouse 90+ as the default, multi-language, static-first delivery.
+- https://tyber.io/solutions/devops/ — AI-augmented delivery and reliability: Terraform/Pulumi,
+  GitOps, Kubernetes, autonomous remediation with human approval on destructive steps,
+  FinOps. Cloud-agnostic (AWS, Google Cloud, Azure, DigitalOcean, Hetzner, Cloudflare).
+- https://tyber.io/solutions/observability/ — Monitoring stacks on Loki, Prometheus, Tempo,
+  OpenTelemetry and Grafana, with AI-assisted triage and cost-aware telemetry.
+- https://tyber.io/solutions/security/ — Security engineering for AI and DevOps: trust ladder
+  for agents (read / suggest / auto), immutable audit trails, server hardening,
+  LGPD/GDPR-aware design, zero-trust access.
+- https://tyber.io/solutions/automation/ — Workflow automation with AI in the decision step:
+  operations bots, integrations, content pipelines. Versioned, observable, auditable.
+- https://tyber.io/solutions/bot/ — Conversational bots on Telegram, Slack, WhatsApp, Discord
+  or Teams, LLM-agnostic (Claude, GPT, Gemini, Llama, Mistral), with RAG over your own
+  knowledge.
+- https://tyber.io/solutions/data/ — Unified dashboards, natural language to SQL grounded in
+  your schema, anomaly detection, observable ETL, RAG over internal data (pgvector, Qdrant).
+- https://tyber.io/solutions/sites/ — Editorial portals, documentation sites, headless commerce
+  and landing pages. Lighthouse 90+ as the default, multi-language, static-first delivery.
+
+Index of all services: https://tyber.io/solutions/ (EN: https://tyber.io/en/solutions/)
+
+## Selected work (anonymized case studies)
+
+Each case describes sector, scale, stack, what was measured before and after. No client is
+named (see "What not to infer").
+
+- https://tyber.io/portfolio/edge-ddos-mitigation/ — Edge DDoS Mitigation Under Election-Cycle Load (reliability)
+- https://tyber.io/portfolio/finops-publisher-cdn/ — Cutting CDN Spend Without Breaking the Reader Experience (reliability)
+- https://tyber.io/portfolio/regional-news-perf/ — Lighthouse 100 on a Mass-Volume Regional News Portal (reliability)
+- https://tyber.io/portfolio/wp-restore-automation/ — Multi-Tenant WordPress Restore Pipeline (automation)
+- https://tyber.io/portfolio/telegram-bot-platform/ — 41-Plugin Telegram Bot Platform with SaaS Multi-Tenancy (platform)
+- https://tyber.io/portfolio/ai-pr-reviewer/ — AI Pull-Request Reviewer with Re-Review and Audit (AI agents)
+- https://tyber.io/portfolio/edge-dns-router/ — Edge DNS Router for Wildcard SaaS Sites (platform)
+- https://tyber.io/portfolio/discord-deploy-bot/ — Multi-Team Discord Deploy Bot with Human-in-the-Loop Guardrails (automation)
+
+Index: https://tyber.io/portfolio/ (EN: https://tyber.io/en/portfolio/)
+
+## Blog
+
+- https://tyber.io/blog/rag-grafana-natural-language/ — RAG over Grafana: natural-language
+  PromQL queries for SREs (2026-05-02, tutorial). EN:
+  https://tyber.io/en/blog/rag-grafana-natural-language/
+
+Index: https://tyber.io/blog/ (EN: https://tyber.io/en/blog/)
 
 ## Key links
 
-- Home: https://tyber.io/
-- About the founder: https://tyber.io/about/
-- Selected work: https://tyber.io/portfolio/
-- Blog: https://tyber.io/blog/
-- Contact: https://tyber.io/contact/
-- Privacy policy: https://tyber.io/privacy/
-- Terms of service: https://tyber.io/terms/
-- Sitemap: https://tyber.io/sitemap.xml
+- Home: https://tyber.io/ (EN: https://tyber.io/en/)
+- About the founder: https://tyber.io/about/ (EN: https://tyber.io/en/about/)
+- Contact: https://tyber.io/contact/ (EN: https://tyber.io/en/contact/)
+- Privacy policy: https://tyber.io/privacy/ · Terms of service: https://tyber.io/terms/
+- Sitemap (both languages): https://tyber.io/sitemap.xml
+- This file: https://tyber.io/llms.txt
+
+## Machine-readable data on the pages
+
+- Every page carries Schema.org JSON-LD: `ProfessionalService` (`https://tyber.io/#organization`),
+  `WebSite` (`https://tyber.io/#website`). /about/ adds a `Person` (`https://tyber.io/#person`,
+  with credentials) and a `BreadcrumbList`; blog posts carry an `Article`.
+- `hreflang` (`pt-BR`, `en`, `x-default`) links the two language versions of each page.
+- The site is static HTML: all text is present in the initial response, no JavaScript
+  needed to read it. Crawlers that do not execute JS see the same content as people.
 
 ## Related property
 
@@ -69,9 +111,9 @@ own verification files; tyber.io itself carries no third-party advertising.
 ## How to cite this site
 
 Prefer the page that owns the subject: a service question belongs to the matching
-/solutions/ URL, a question about the person belongs to /about/. When attributing, the
-organization is "Tyber.io" and the person is "João Pedro Tibério". They are the same
-practice, not two entities.
+/solutions/ URL, a question about the person belongs to /about/, a question about results
+belongs to the matching /portfolio/ case. When attributing, the organization is "Tyber.io"
+and the person is "João Pedro Tibério". They are the same practice, not two entities.
 
 ## What not to infer
 
