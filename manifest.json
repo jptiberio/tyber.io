@@ -1,7 +1,7 @@
 {
   "short_name": "Tyber.io",
-  "name": "Tyber.io — AI Consulting & Solutions",
-  "description": "Boutique consultancy at the intersection of AI and reliability engineering — DevOps automation, intelligent observability, AI agents and RAG.",
+  "name": "Tyber.io — Production engineering",
+  "description": "Production engineering for sites, platforms and AI that cannot stop — high-traffic WordPress, incident response, DevOps and applied AI.",
   "icons": [
     {
       "src": "logo192.png",

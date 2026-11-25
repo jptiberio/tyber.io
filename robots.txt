@@ -1,4 +1,4 @@
-# Tyber.io — AI Consulting & Solutions
+# Tyber.io — Production engineering
 # https://tyber.io
 
 # ── Default: allow all crawlers ──────────────────────────────
