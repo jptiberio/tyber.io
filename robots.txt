@@ -1,4 +1,4 @@
-# Tyber.io — Production engineering
+# Tyber.io — Web architecture and engineering
 # https://tyber.io
 
 # ── Default: allow all crawlers ──────────────────────────────
