@@ -1,13 +1,13 @@
 # Tyber.io
 
-> Small engineering team for sites, apps and infrastructure, in any language or stack.
+> Experienced, committed engineers for sites, apps and infrastructure, in any language or stack.
 > We understand the problem before proposing a solution, and the person you talk to is the
 > person doing the work. Based in São Paulo, Brazil, working remotely for Brazil and abroad,
 > in Portuguese (pt-BR) and English.
 
 How we work: reply within 1 business day, scope in writing before any work starts, no
-lock-in (code, access and accounts stay in the client's name, with a runbook), nothing
-destructive without the client's approval, and we start from what the client already has
+lock-in (code, access and accounts stay in the client's name, with a runbook), every change
+planned, tested and reversible, and we start from what the client already has
 instead of rewriting it.
 
 WordPress is one of the platforms we run the most, not the only offer: the stack follows the
